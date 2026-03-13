@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>UNIGLOB</title>
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#1a2e4a">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="UNIGLOB">
+  <link rel="apple-touch-icon" href="data:image/png;base64,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">
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    html, body {
+      width: 100%; height: 100%;
+      overflow: hidden;
+      background: #1a2e4a;
+    }
+
+    /* Pantalla de carga mientras abre el iframe */
+    #splash {
+      position: fixed; inset: 0;
+      background: #1a2e4a;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      gap: 20px; z-index: 10;
+      transition: opacity 0.4s;
+    }
+    #splash img { width: 140px; filter: brightness(0) invert(1); }
+    #splash p  { color: #fff; font-family: sans-serif; font-size: 14px; opacity: .7; }
+    .spinner {
+      width: 36px; height: 36px;
+      border: 3px solid rgba(255,255,255,.3);
+      border-top-color: #fff;
+      border-radius: 50%;
+      animation: spin .8s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* iframe ocupa toda la pantalla */
+    iframe {
+      position: fixed; inset: 0;
+      width: 100%; height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Splash mientras carga -->
+  <div id="splash">
+    <img src="data:image/png;base64,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" alt="UNIGLOB">
+    <div class="spinner"></div>
+    <p>Cargando...</p>
+  </div>
+
+  <!-- ⚠️ REEMPLAZA LA URL CON LA DE TU GOOGLE APPS SCRIPT -->
+  <iframe
+    id="appFrame"
+    src="TU_URL_DE_GOOGLE_APPS_SCRIPT_AQUI"
+    allow="camera; microphone; geolocation; clipboard-write"
+    allowfullscreen
+    onload="document.getElementById('splash').style.opacity='0';
+            setTimeout(function(){document.getElementById('splash').style.display='none'},400);">
+  </iframe>
+
+  <script>
+    // Registrar Service Worker
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js')
+        .then(function(r){ console.log('SW OK', r.scope); })
+        .catch(function(e){ console.warn('SW error', e); });
+    }
+  </script>
+
+</body>
+</html>
