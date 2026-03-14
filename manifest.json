@@ -5,7 +5,7 @@
   "start_url": "/uniglob-app/",
   "scope": "/uniglob-app/",
   "display": "standalone",
-  "orientation": "portrait",
+  "orientation": "any",
   "theme_color": "#1a2e4a",
   "background_color": "#1a2e4a",
   "icons": [
